@@ -73,8 +73,8 @@ renderer.setSize(canvasContainer.offsetWidth, canvasContainer.offsetHeight);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
 // Axes Helper
-const axesHelper = new THREE.AxesHelper(10, 10, 10);
-scene.add(axesHelper);
+// const axesHelper = new THREE.AxesHelper(10, 10, 10);
+// scene.add(axesHelper);
 
 const globeTexture = new THREE.TextureLoader().load("./01-3.jpg");
 
